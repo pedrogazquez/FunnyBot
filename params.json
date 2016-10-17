@@ -1,6 +1,6 @@
 {
   "name": "Proyecto-cc-16-17",
   "tagline": "",
-  "body": "# Proyecto-CC-16-17\r\n\r\nRepositorio para el proyecto que se realizará para la asignatura del Máster en Ingeniería Informática Cloud Computing de la ETSIIT de Granada.\r\n\r\nEn este proyecto se realizará el despligue de una aplicación web la cual será desarrollada con el Framework Python Django.\r\n",
+  "body": "# Proyecto-CC-16-17\r\n\r\n# Uso correcto de Git y GitHub.\r\n\r\nRepositorio para el proyecto que se realizará para la asignatura del Máster en Ingeniería Informática Cloud Computing de la ETSIIT de Granada.\r\n\r\nEn este proyecto se realizará el despligue de una aplicación web la cual será desarrollada con el Framework Python Django.\r\n\r\n# Estructuración del proyecto.\r\n\r\nEl proyecto que aquí se desarrollará será una aplicación web realizada con Django. La razón por la que se ha elegido este framework Python para la realización de este proyecto, es debido a su alto nivel, que fomenta el desarrollo rápido y el diseño limpio y pragmático. Entre sus características destacan su rapidez, su filosofía DRY, su sistema de administración activo y su ORM.\r\n\r\n# Hito 2\r\n\r\n\r\n\r\n# Hito 3\r\n\r\n\r\n\r\n# Hito 4\r\n\r\n\r\n\r\n\r\n# Hito 5\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
