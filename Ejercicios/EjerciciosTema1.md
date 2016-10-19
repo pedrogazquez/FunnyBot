@@ -6,3 +6,5 @@ Esta aplicación usa un patrón de arquitectura MVC (Modelo-Vista-Controlador). 
 
 Para evolucionar este patrón a un patrón tipo microservicios, lo primero que haría sería dividir mi aplicación en distintos módulos. Una vez hecho esto procedería a descentralizar la base de datos. Con esto quiero decir que, en vez de que cada módulo tenga que acudir a la misma base datos, cada modulo contará con su propia base de datos. De esta forma evitariamos sobrecargarla y que un fallo en la base de datos provocara la caida de todo el sistema.
 Así dividiría mi aplicación en distintos módulos multifuncionales, adaptnado así un módulo común a todos para que ofrezca un servicio determinado.
+
+#Ejercicios2: 
