@@ -9,4 +9,6 @@ Así dividiría mi aplicación en distintos módulos multifuncionales, adaptnado
 
 #Ejercicios2: En la aplicación que se ha usado como ejemplo en el ejercicio anterior, ¿podría usar diferentes lenguajes? ¿Qué almacenes de datos serían los más convenientes?
 
-Sí podría usar diferentes lenguajes.
+Sí podría usar diferentes lenguajes. Una vez realizada la aplicación mencionada anteriormente, al cambiar a una arquitectura de microservicios, se podría usar un lenguaje distinto para cada módulo o servicio del sistema.
+
+El almacén de datos más conveniente sería MongoDB ya que es una base de datos NoSQL y ayudaría a esta debido a su lenguaje no tipado.
