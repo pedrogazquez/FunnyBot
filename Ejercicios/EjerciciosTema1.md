@@ -8,3 +8,5 @@ Para evolucionar este patrón a un patrón tipo microservicios, lo primero que h
 Así dividiría mi aplicación en distintos módulos multifuncionales, adaptnado así un módulo común a todos para que ofrezca un servicio determinado.
 
 #Ejercicios2: En la aplicación que se ha usado como ejemplo en el ejercicio anterior, ¿podría usar diferentes lenguajes? ¿Qué almacenes de datos serían los más convenientes?
+
+Sí podría usar diferentes lenguajes.
