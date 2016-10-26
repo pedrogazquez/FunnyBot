@@ -10,7 +10,7 @@ En este proyecto se realizará el despligue de una aplicación web la cual será
 
 # Estructuración del proyecto.
 
-El proyecto que aquí se desarrollará será una aplicación web realizada con Django. La razón por la que se ha elegido este framework Python para la realización de este proyecto, es debido a su alto nivel, que fomenta el desarrollo rápido y el diseño limpio y pragmático. Entre sus características destacan su rapidez, su filosofía DRY, su sistema de administración activo y su ORM.
+El proyecto que aquí se desarrollará será una aplicación web realizada con el framework Django. La razón por la que se ha elegido este framework Python para la realización de este proyecto, es debido a su alto nivel, que fomenta el desarrollo rápido y el diseño limpio y pragmático. Entre sus características destacan su rapidez, su filosofía DRY, su sistema de administración activo y su ORM.
 
 # Hito 2
 
