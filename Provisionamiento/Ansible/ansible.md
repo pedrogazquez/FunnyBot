@@ -20,7 +20,7 @@ sudo pip install awscli
 
 ```
 
-Lo siguiente que haremos, será definir el fichero [playbook.yml](https://github.com/pedrogazquez/FunnyBot/Provisionamiento/playbook.yml) que contendrá las tareas que se ejecutarán en la máquina:
+Lo siguiente que haremos, será definir el fichero [playbook.yml](https://github.com/pedrogazquez/FunnyBot/blob/master/Provisionamiento/Ansible/playbook.yml) que contendrá las tareas que se ejecutarán en la máquina:
 
 ```
 - hosts: all
@@ -40,7 +40,7 @@ Lo siguiente que haremos, será definir el fichero [playbook.yml](https://github
       user: name=user shell=/bin/bash group=admin password="passwd"
 ```
 
-Por útlimo antes de ejecutar el playbook con ansible, definiremos un fichero denominado [ansible_hosts](https://github.com/pedrogazquez/FunnyBot/Provisionamiento/ansible_hosts) que contiene la dirección IP de la máquina de AWS con la que conectará:
+Por útlimo antes de ejecutar el playbook con ansible, definiremos un fichero denominado [ansible_hosts](https://github.com/pedrogazquez/FunnyBot/blob/master/Provisionamiento/Ansible/ansible_hosts) que contiene la dirección IP de la máquina de AWS con la que conectará:
 
 ```
 [aws]
