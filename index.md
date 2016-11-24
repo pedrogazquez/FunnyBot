@@ -53,6 +53,12 @@ También se ha realizado el aprovisionamiento con chef. Esta librería resuelve 
 [Ir a provisionamiento con chef](chef)
 
 
+## Probando el provisionamiento de los compañeros
+
+El primero que he probado ha sido el provisionamento que ha realizado mi compañero [Aythami Estévez](https://aythae.github.io/DeFesti/chef) y he comprobado que funciona correctamente.
+
+[Probando el provisionamiento con chef de Aythami](chefAythami)
+
 # Licencia
 
 Este proyecto usará una licencia GNU GENERAL PUBLIC LICENSE (Versión 3, 29 de Junio de 2007).
