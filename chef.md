@@ -40,4 +40,4 @@ En la siguiente imagen se puede ver el provisionamiento correcto de chef una vez
 ![chefProvi](http://i1042.photobucket.com/albums/b422/Pedro_Gazquez_Navarrete/ejecutandoCHef_zpsp8iqhauj.png)
 
 
-[Volver a inicio] (index)
+[Volver a inicio](index)

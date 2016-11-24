@@ -64,4 +64,4 @@ Aquí el resultado de la ejecución correcta de ansible:
 ![ansibleEJECUCION](http://i1042.photobucket.com/albums/b422/Pedro_Gazquez_Navarrete/EjecutandoANsible2_zpscin3gjan.png)
 
 
-[Volver a inicio] (index)
+###[Volver a inicio](index)
