@@ -35,3 +35,5 @@ sudo chef-solo -c ~/DeFesti/provision/chef/solo.rb
 Y en la siguiente imagen se puede ver que el provisionamiento que mi compañero ha hecho con chef es correcto:
 
 ![provisionamientoChefAythami](http://i1042.photobucket.com/albums/b422/Pedro_Gazquez_Navarrete/chefCorrectoAyth_zpsxadsphbe.png)
+
+[Volver a inicio](index)
