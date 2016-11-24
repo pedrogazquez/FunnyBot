@@ -2,7 +2,7 @@
 layout: index
 ---
 
-# Ansible
+# Provisionamiento con ansible
 
 Para realizar el provisionamiento con ansible primero he creado una instancia de AWS con la imagen de Ubuntu Server 14.04 LTS. Conecto con ella con el comando ssh siguiente:
 
@@ -62,3 +62,6 @@ Este comando ejecuta ansible, en las máquinas definidas en ansible_hosts (en es
 Aquí el resultado de la ejecución correcta de ansible:
 
 ![ansibleEJECUCION](http://i1042.photobucket.com/albums/b422/Pedro_Gazquez_Navarrete/EjecutandoANsible2_zpscin3gjan.png)
+
+
+[Volver a inicio] (index)
