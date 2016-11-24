@@ -42,7 +42,7 @@ Para la realización de este hito se han elegido dos sistemas de provisionamient
 
 Se ha elegido Ansible porque es uno de los sistemas de provisionamento más conocidos y por su flexibilidad y multitud de opciones. 
 
-[Ir a provisionamiento con ansible](ansible)
+[Ir a provisionamiento con ansible](https://github.com/pedrogazquez/FunnyBot/blob/master/Provisionamiento/Ansible/ansible.md)
 
 ## Chef
 
