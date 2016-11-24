@@ -56,9 +56,12 @@ También se ha realizado el aprovisionamiento con chef. Esta librería resuelve 
 ## Probando el provisionamiento de los compañeros
 
 El primero que he probado ha sido el provisionamento que ha realizado mi compañero [Aythami Estévez](https://aythae.github.io/DeFesti/chef) con Chef y he comprobado que funciona correctamente.
+
 [Probando el provisionamiento con chef de Aythami](chefAythami)
 
+
 Adicionalmente he probado el provisionamiento que mi compañero [César Albusac](https://github.com/cesar2/Tripbot/) ha realizado con Ansible.
+
 [Probando el provisionamiento con ansible de César](ansibleCesar)
 
 
