@@ -34,29 +34,35 @@ Para empezar, este proyecto contará con tres microservicios:
 
 * Servicio de añadir nuevos chistes: se dará la oportunidad al usuario de añadir nuevos chistes al Bot. Este microservicio proporcionará al usuario la opción de añadir un chiste en la categoría deseada. De esta forma una vez que lo añada y sea comprobado correctamente el chiste quedará añadido a la base de datos correspondiente.
 
-### Licencia
+# Provisionamento
+
+Para la realización de este hito se han elegido dos sistemas de provisionamiento (Ansible y Chef). Se provisionará una instancia de Amazon Web Services con Ubuntu Server.
+
+## Ansible
+
+Se ha elegido Ansible porque es uno de los sistemas de provisionamento más conocidos y por su flexibilidad y multitud de opciones. 
+
+[Ir a provisionamiento con ansible](ansible)
+
+## Chef
+
+
+# Licencia
 
 Este proyecto usará una licencia GNU GENERAL PUBLIC LICENSE (Versión 3, 29 de Junio de 2007).
 
-### Concurso de software libre
+# Concurso de software libre
 
 Aquí se adjunta la imagen de que este proyecto está inscrito en el concurso de software libre:
 
 ![Inscripcion software libre](http://i1042.photobucket.com/albums/b422/Pedro_Gazquez_Navarrete/InscripcionProyectosLibres_zps7lkqcacs.png)
 
-# Hito 2
-
-
-
 
 # Hito 3
 
-
-
 # Hito 4
 
-
-
-
 # Hito 5
+
+
 
