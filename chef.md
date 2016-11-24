@@ -5,6 +5,7 @@ layout: index
 # Provisionamiento con chef
 
 Para realizar el provisionamiento con chef primero hemos conectado con la instancia de AWS con la imagen de Ubuntu Server 14.04 LTS:
+
 ```
 ssh -i "pgazquezAWSKeys.pem" ubuntu@ec2-IP.us-west-2.compute.amazonaws.com
 ```
