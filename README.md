@@ -46,6 +46,10 @@ Se ha elegido Ansible porque es uno de los sistemas de provisionamento más cono
 
 ## Chef
 
+También se ha realizado el aprovisionamiento con chef. Esta librería resuelve el problema de la creación repetitiva al crear máquinas e infraestructuras virtuales. Tiene un plugin que permite escribir "recetas de provisionamento" para cualquier infraestructura virtual. En este caso la he usado con una máquina de EC2 que tiene Ubuntu Server 14.04.
+
+[Ir a provisionamiento con chef](https://github.com/pedrogazquez/FunnyBot/blob/master/Provisionamiento/Chef/README.md)
+
 
 # Licencia
 
