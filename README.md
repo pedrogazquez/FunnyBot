@@ -57,6 +57,9 @@ El primero que he probado ha sido el provisionamento que ha realizado mi compañ
 
 [Probando el provisionamiento con chef de Aythami](https://github.com/pedrogazquez/FunnyBot/blob/master/Provisionamiento/Chef/ChefAythami.md)
 
+Adicionalmente he probado el provisionamiento que mi compañero [César Albusac](https://github.com/cesar2/Tripbot/) ha realizado con Ansible.
+[Probando el provisionamiento con ansible de César](https://github.com/pedrogazquez/FunnyBot/blob/master/Provisionamiento/Ansible/AnsibleCesar.md)
+
 
 # Licencia
 
