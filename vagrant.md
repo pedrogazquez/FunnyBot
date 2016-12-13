@@ -1,3 +1,7 @@
+---
+layout: index
+---
+
 # Orquestación con vagrant
 
 Para realizar la orquestación con vagrant, lo primero que he hecho ha sido instalarlo:
