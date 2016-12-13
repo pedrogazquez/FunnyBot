@@ -19,4 +19,67 @@ Posteriormente he añadido un box de vagrant, que ha sido el box de dummy:
 vagrant box add dummy https://github.com/mitchellh/vagrant-aws/raw/master/dummy.box
 ```
 
+Y he definido mi [Vagrantfile](https://github.com/pedrogazquez/FunnyBot/blob/master/Orquestacion/Vagrant/Vagrantfile):
 
+```
+Vagrant.configure("2") do |config|
+	
+	config.vm.box = "dummy"
+
+		
+	config.vm.define :gestionImagenes do |gestionImagenes|
+		gestionImagenes.vm.host_name = "gestionImagenes"
+			
+		gestionImagenes.vm.provider :aws do |aws, override|
+			aws.access_key_id = "AKIAJZQV7AALQ5MFAI7A"
+			aws.secret_access_key = "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"
+			aws.keypair_name = "parVagrantSSH"
+			aws.ami = "ami-01f05461"
+			aws.instance_type = "t2.micro"
+			aws.security_groups = ["vagrant"]
+			aws.region = 'us-west-2'
+			aws.availability_zone = "us-west-2a" 
+			aws.tags = {
+				'Name' => 'Instancia FunnyBot gestion imagenes',
+				'Environment' => 'vagrant'
+			}
+			
+			override.ssh.username = "ubuntu"
+			override.ssh.private_key_path = "~/Escritorio/parVagrantSSH.pem"
+		end
+		
+		gestionImagenes.vm.provision :ansible do |ansible|
+			ansible.sudo = true
+			ansible.playbook = "../../Provisionamiento/Ansible/playbook.yml"
+		end
+	end
+		
+	config.vm.define :gestionChistes do |gestionChistes|
+		gestionChistes.vm.host_name = "gestionChistes"
+			
+		gestionChistes.vm.provider :aws do |aws, override|
+			aws.access_key_id = "AKIAJZQV7AALQ5MFAI7A"
+			aws.secret_access_key = "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"
+			aws.keypair_name = "parVagrantSSH"
+			aws.ami = "ami-01f05461"
+			aws.instance_type = "t2.micro"
+			aws.security_groups = ["vagrant"]
+			aws.region = 'us-west-2'
+			aws.availability_zone = "us-west-2a"
+			aws.tags = {
+				'Name' => 'Instancia FunnyBot gestion chistes',
+				'Environment' => 'vagrant'
+			}
+			 
+			override.ssh.username = "ubuntu"
+			override.ssh.private_key_path = "~/Escritorio/parVagrantSSH.pem"
+		end
+		
+		gestionChistes.vm.provision :ansible do |ansible|
+			ansible.sudo = true
+			ansible.playbook = "../../Provisionamiento/Ansible/playbook.yml"
+		end
+	end
+end
+
+```
