@@ -64,6 +64,21 @@ Adicionalmente he probado el provisionamiento que mi compañero [César Albusac]
 
 [Probando el provisionamiento con ansible de César](ansibleCesar)
 
+# Orquestación
+
+Para la orquestación de mi aplicación (hito 3) he elegido Vagrant.
+
+## Vagrant
+
+Vagrant es una herramienta para la creación y configuración de entornos de desarrollo virtualizados. Se ha usado con la virtualización de AWS y con el sistema de provisionamiento de Anisble.
+
+[Ir a orquestación con Vagrant](vagrant)
+
+## Probando el provisionamiento de los compañeros
+
+He probado la orquestación que ha realizado mi compañero [César Albusac](https://github.com/cesar2/Tripbot/) con Vagrant
+
+[Probando la orquestación con vagrant de César](vagrantCesar)
 
 # Licencia
 
@@ -75,10 +90,8 @@ Aquí se adjunta la imagen de que este proyecto está inscrito en el concurso de
 
 ![Inscripcion software libre](http://i1042.photobucket.com/albums/b422/Pedro_Gazquez_Navarrete/InscripcionProyectosLibres_zps7lkqcacs.png)
 
-
-# Hito 3
-
 # Hito 4
 
 # Hito 5
+
 
