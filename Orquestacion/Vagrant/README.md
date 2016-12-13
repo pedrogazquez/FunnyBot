@@ -83,3 +83,17 @@ Vagrant.configure("2") do |config|
 end
 
 ```
+
+Lo siguiente que hacemos es ejecutar vagrant con:
+
+```
+vagrant up --provider=aws
+```
+
+Y se crean correctamente las dos instancias:
+
+![capturaVagrant1](http://i1042.photobucket.com/albums/b422/Pedro_Gazquez_Navarrete/dosMaquinasFunc_zpsr2c9irsq.png)
+
+Y también se provisiona cada una con Ansible:
+
+![capturaVagrant2](http://i1042.photobucket.com/albums/b422/Pedro_Gazquez_Navarrete/ejecuPlayBooks_zps9wwxjjxd.png)
