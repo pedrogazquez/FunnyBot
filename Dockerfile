@@ -1,4 +1,6 @@
-FROM ubuntu:latest
+FROM ubuntu:ubuntu:14.04
+
+
 MAINTAINER Pedro Gázquez Navarrete <pedrogazqueznavarrete@gmail.com>
 
 
