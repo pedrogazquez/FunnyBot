@@ -1,5 +1,6 @@
 FROM ubuntu:latest
-MAINTAINER pedrogazquez <pedrogazqueznavarrete@gmail.com>
+
+MAINTAINER Pedro Gazquez Navarrete <pedrogazqueznavarrete@gmail.com>
 
 
 # Añadiendo herramientas Python
