@@ -79,6 +79,16 @@ He probado la orquestación que ha realizado mi compañero [César Albusac](http
 
 [Probando la orquestación con vagrant de César](https://github.com/pedrogazquez/FunnyBot/blob/master/Orquestacion/Vagrant/VagrantCesar.md)
 
+# Contenedores
+
+Para la creación y configuración de entornos de desarrollo virtualizados he usado Dcoker, ya que es capaz de trabajar con múltiples proveedores virtuales.
+
+## Docker
+
+Docker es una herramienta para la configuración y creación de entornos de desarrollo virtualizados que originalmente se desarrolló para VirtualBox y sistemas de configuración tales como Chef, Salt y Puppet.
+
+[Ir a contenedor docker]()
+
 # Licencia
 
 Este proyecto usará una licencia GNU GENERAL PUBLIC LICENSE (Versión 3, 29 de Junio de 2007).
