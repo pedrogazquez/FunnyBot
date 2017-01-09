@@ -80,6 +80,23 @@ He probado la orquestación que ha realizado mi compañero [César Albusac](http
 
 [Probando la orquestación con vagrant de César](vagrantCesar)
 
+# Contenedores
+
+Para la creación y configuración de entornos de desarrollo virtualizados he usado Dcoker, ya que es capaz de trabajar con múltiples proveedores virtuales.
+
+## Docker
+
+Docker es una herramienta para la configuración y creación de entornos de desarrollo virtualizados que originalmente se desarrolló para VirtualBox y sistemas de configuración tales como Chef, Salt y Puppet.
+
+[Ir a gestión de contenedores con docker](docker)
+
+## Probando el contenedor de los compañeros
+
+He probado el contenedor que ha realizado mi compañero [Alejandro Casado](https://github.com/acasadoquijada/MyStudentBot)
+
+[Probando el contenedor docker de Alex](dockerAlex)
+
+
 # Licencia
 
 Este proyecto usará una licencia GNU GENERAL PUBLIC LICENSE (Versión 3, 29 de Junio de 2007).
