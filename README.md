@@ -93,7 +93,7 @@ Docker es una herramienta para la configuración y creación de entornos de desa
 
 He probado el contenedor que ha realizado mi compañero [Alejandro Casado](https://github.com/acasadoquijada/MyStudentBot)
 
-[Probando el contenedor docker de Alex]()
+[Probando el contenedor docker de Alex](https://github.com/pedrogazquez/FunnyBot/blob/master/Contenedores/Docker/DockerAlex.md)
 
 # Licencia
 
