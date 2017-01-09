@@ -87,7 +87,13 @@ Para la creación y configuración de entornos de desarrollo virtualizados he us
 
 Docker es una herramienta para la configuración y creación de entornos de desarrollo virtualizados que originalmente se desarrolló para VirtualBox y sistemas de configuración tales como Chef, Salt y Puppet.
 
-[Ir a contenedor docker]()
+[Ir a gestión de contenedores con docker](https://github.com/pedrogazquez/FunnyBot/blob/master/Contenedores/Docker/README.md)
+
+## Probando el contenedor de los compañeros
+
+He probado el contenedor que ha realizado mi compañero [Alejandro Casado](https://github.com/acasadoquijada/MyStudentBot)
+
+[Probando el contenedor docker de Alex]()
 
 # Licencia
 
