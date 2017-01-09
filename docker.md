@@ -66,3 +66,6 @@ sudo docker run -it pedrogazquez/funnybot bash
 Y como podemos ver a continuación se arranca correctamente y tiene instalado todo lo defnido en el Dockerfile:
 
 ![dockerRun](http://i1042.photobucket.com/albums/b422/Pedro_Gazquez_Navarrete/dcokerrun_zpsguihjgxb.png)
+
+
+[Volver a inicio](index)
