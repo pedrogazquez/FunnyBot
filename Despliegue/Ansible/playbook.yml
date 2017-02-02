@@ -1,0 +1,15 @@
+- hosts: all
+  sudo: true
+  tasks:
+    - name: Actualizamos apt
+      apt: update_cache=yes
+    - name: Instalamos pip
+      apt: name=python-setuptools state=present
+      apt: name=python-dev state=present 
+      apt: name=python-pip state=present
+    - name: Instalamos supervisor
+      apt: name=supervisor state=present
+    - name: Instalamos la api pyTelegramBotAPI
+      pip: name=pyTelegramBotAPI
+    - name: Creamos superusuario con contraseña
+      user: name=user shell=/bin/bash group=admin password=$6$kX.s/C7.lLRHg57$wHiJmOrf6o5OLjWH.05AjboEeEuWi63HqnGaPmeGZzobRyZHF8L7r6LiNN5s.v.5zlBHmzC30tyTCDUWwmgxb0
