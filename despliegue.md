@@ -47,6 +47,8 @@ Y hemos creado los dos contenedores junto al que tenía del hito anterior:
 	+ [Contenedor gestión de categorías: docker pull pedrogazquez/funnybot-gestioncategorias](https://hub.docker.com/r/pedrogazquez/funnybot-gestioncategorias/)
 	
 Una vez hecho esto he procedido a definir mi Vagrantfile, con las tres instancias correspondientes de aws:
+
+
 ```
 Vagrant.configure("2") do |config|
 	
