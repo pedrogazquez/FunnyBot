@@ -112,6 +112,7 @@ Para la gestión de la base de datos, se ha seleccionó MongoDB como ya se dijo 
 
 Para la gestión de logs se ha elegido [papertrail](https://papertrailapp.com/) ya que tiene una visibilidad instantánea de los logs. Es muy flexible y además proporciona un seguimiento de los problemas de los clientes, mensajes de error, etc.
 
+También porque tiene un plan gratuito muy completo y es fácil de usar en tres sencillos pasos. [Ir a setup papertrail](https://papertrailapp.com/systems/setup)
 [Ir a despliegue](https://github.com/pedrogazquez/FunnyBot/blob/master/Despliegue/README.md)
 
 

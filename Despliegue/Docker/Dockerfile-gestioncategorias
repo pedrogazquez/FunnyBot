@@ -11,7 +11,7 @@ RUN apt-get -y install python-pip
 RUN apt-get -y install supervisor
 # Añadiendo base de datos (MongoDB)
 RUN pip install mlab
-# Servicio de logs
+# Servicio de graficos
 RUN pip install plotly
 
 #Instalando la API de BOTS de Telegram
