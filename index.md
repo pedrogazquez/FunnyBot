@@ -96,6 +96,27 @@ He probado el contenedor que ha realizado mi compañero [Alejandro Casado](https
 
 [Probando el contenedor docker de Alex](dockerAlex)
 
+# Despliegue
+
+Para el despliegue de este bot de telegram, he definido dos microservicios y el propio Bot:
+
++ El propio bot, definido anteriormente con su correspondiente [contenedor docker](https://hub.docker.com/r/pedrogazquez/funnybot/) que es el servicio que ejecutará el Bot de Telegram.
+	
++ Un servicio que gestiona las imágenes de los chistes, con su propia base de datos de imágenes y sistema de log. [Ir a contenedor docker](https://hub.docker.com/r/pedrogazquez/funnybot-gestionimagenes/).
+	
++ Por último un servicio de gestión de categorías de chistes, que gestiona tanto las categorías de estos, como la adicción y eliminado de los chistes. [Ir a contenedor docker de gestión de categorías](https://hub.docker.com/r/pedrogazquez/funnybot-gestioncategorias/)
+
+Para la gestión de la base de datos, se ha seleccionó MongoDB como ya se dijo en hitos anteriores. Para la administración de la base de datos en la nube, he elegido [MLab](https://mlab.com/), ya que se ejecuta en AWS también. Además tiene un plan llamado Sandbox que nos proporciona una base de datos con 0,5 GB de almacenamiento en una base de datos compartida, no tiene fecha de caducidad, tiene copias de seguridad, soporte de dase de datos de expertos, restauraciones fáciles, etc.
+
+![capturaMlab](http://i1042.photobucket.com/albums/b422/Pedro_Gazquez_Navarrete/Captura%20de%20pantalla%20de%202017-02-03%2014-24-13_zpsenszxitg.png)
+
+Para la gestión de logs se ha elegido [papertrail](https://papertrailapp.com/) ya que tiene una visibilidad instantánea de los logs. Es muy flexible y además proporciona un seguimiento de los problemas de los clientes, mensajes de error, etc.
+
+También porque tiene un plan gratuito muy completo y es fácil de usar en tres sencillos pasos. [Ir a setup papertrail](https://papertrailapp.com/systems/setup)
+
+
+
+[Ir a despliegue](despliegue)
 
 # Licencia
 
