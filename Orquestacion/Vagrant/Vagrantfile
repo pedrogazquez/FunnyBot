@@ -8,8 +8,8 @@ Vagrant.configure("2") do |config|
 			
 		gestionImagenes.vm.provider :aws do |aws, override|
 			aws.access_key_id = ENV['ACCESS_KEY_ID']
-			aws.secret_access_key = ENV['ACCESS_KEY_SECRET']
-			aws.keypair_name = ENV['ACCESS_KEYPAIR']
+            aws.secret_access_key = ENV['ACCESS_KEY_SECRET']
+            aws.keypair_name = ENV['ACCESS_KEYPAIR']
 			aws.ami = "ami-01f05461"
 			aws.instance_type = "t2.micro"
 			aws.security_groups = ["vagrant"]
@@ -29,18 +29,15 @@ Vagrant.configure("2") do |config|
 			ansible.playbook = "../../Provisionamiento/Ansible/playbook.yml"
 		end
 		
-		gestionImagenes.vm.provider :docker do |docker|
-			docker.build_image = "../../Dockerfile"
-		end
 	end
 		
 	config.vm.define :gestionChistes do |gestionChistes|
 		gestionChistes.vm.host_name = "gestionChistes"
 			
 		gestionChistes.vm.provider :aws do |aws, override|
-			aws.access_key_id = "AKIAIB2FUS5YTGPQ7VIQ"
-			aws.secret_access_key = "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"
-			aws.keypair_name = "parClavesVagrantSSH"
+			aws.access_key_id = ENV['ACCESS_KEY_ID']
+            aws.secret_access_key = ENV['ACCESS_KEY_SECRET']
+            aws.keypair_name = ENV['ACCESS_KEYPAIR']
 			aws.ami = "ami-01f05461"
 			aws.instance_type = "t2.micro"
 			aws.security_groups = ["vagrant"]
@@ -56,6 +53,33 @@ Vagrant.configure("2") do |config|
 		end
 		
 		gestionChistes.vm.provision :ansible do |ansible|
+			ansible.sudo = true
+			ansible.playbook = "../../Provisionamiento/Ansible/playbook.yml"
+		end
+	end
+	
+	config.vm.define :bot do |bot|
+		bot.vm.host_name = "bot"
+			
+		bot.vm.provider :aws do |aws, override|
+			aws.access_key_id = ENV['ACCESS_KEY_ID']
+            aws.secret_access_key = ENV['ACCESS_KEY_SECRET']
+            aws.keypair_name = ENV['ACCESS_KEYPAIR']
+			aws.ami = "ami-01f05461"
+			aws.instance_type = "t2.micro"
+			aws.security_groups = ["vagrant"]
+			aws.region = 'us-west-2'
+			aws.availability_zone = "us-west-2a"
+			aws.tags = {
+				'Name' => 'Instancia bot FunnyBot',
+				'Environment' => 'vagrant'
+			}
+			 
+			override.ssh.username = "ubuntu"
+			override.ssh.private_key_path = "~/Escritorio/parClavesVagrantSSH.pem"
+		end
+		
+		bot.vm.provision :ansible do |ansible|
 			ansible.sudo = true
 			ansible.playbook = "../../Provisionamiento/Ansible/playbook.yml"
 		end
