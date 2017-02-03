@@ -21,12 +21,16 @@ Vagrant.configure("2") do |config|
 			}
 			
 			override.ssh.username = "ubuntu"
-			override.ssh.private_key_path = ENV['PRIVATE_KEY']
+			override.ssh.private_key_path = "~/Escritorio/parClavesVagrantSSH.pem"
 		end
 		
 		gestionImagenes.vm.provision :ansible do |ansible|
 			ansible.sudo = true
 			ansible.playbook = "../../Provisionamiento/Ansible/playbook.yml"
+		end
+		
+		gestionImagenes.vm.provider :docker do |docker|
+			docker.build_image = "../../Dockerfile"
 		end
 	end
 		
@@ -34,9 +38,9 @@ Vagrant.configure("2") do |config|
 		gestionChistes.vm.host_name = "gestionChistes"
 			
 		gestionChistes.vm.provider :aws do |aws, override|
-			aws.access_key_id = ENV['ACCESS_KEY_ID']
-			aws.secret_access_key = ENV['ACCESS_KEY_SECRET']
-			aws.keypair_name = ENV['ACCESS_KEYPAIR']
+			aws.access_key_id = "AKIAIB2FUS5YTGPQ7VIQ"
+			aws.secret_access_key = "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"
+			aws.keypair_name = "parClavesVagrantSSH"
 			aws.ami = "ami-01f05461"
 			aws.instance_type = "t2.micro"
 			aws.security_groups = ["vagrant"]
@@ -48,7 +52,7 @@ Vagrant.configure("2") do |config|
 			}
 			 
 			override.ssh.username = "ubuntu"
-			override.ssh.private_key_path = ENV['PRIVATE_KEY']
+			override.ssh.private_key_path = "~/Escritorio/parClavesVagrantSSH.pem"
 		end
 		
 		gestionChistes.vm.provision :ansible do |ansible|
